@@ -6,9 +6,18 @@
 
 [部品表](./部品表.xlsx)  
 本で見つけたアッカーマン・ジャントー方式を取り入れてみました。  
+内部構造
 ![試作前面](./Fusion360/試作前面.jpg)
 ![試作背面](./Fusion360/試作背面.jpg)
 ![試作裏面](./Fusion360/試作裏面.jpg)
+
+外装  
+![試作外装前面](./Fusion360/試作外装前面.jpg)
+![試作外装断面](./Fusion360/試作外装断面.jpg)
+
+3Dプリンターで作ったもの  
+![試作２内部](./image/試作２内部.jpg)
+![試作２外装](./image/試作２外装.jpg)
 
 動画：<https://youtu.be/6bydSzUHpmo>
 [![試作１](./image/試作１.jpg)](https://youtu.be/6bydSzUHpmo)
