@@ -24,7 +24,7 @@
 
 ### 回路図
 
-![回路図試作](./Quadcept/20240113_17_36_30.png)
+![回路図試作](./Quadcept/RumiCar回路図.png)
 
 ## 車体について
 
@@ -37,7 +37,7 @@ Fusion360で設計しています。
 
 <https://404background.com/circuit/drv8835/>  
 <https://youtu.be/BTHzUvILtWA>  
-![DRV8835回路図](./image/DRV8835回路図.jpg)  
+![DRV8835回路図](./Quadcept/DRV8835回路図.jpg)  
 
 ### VL53L0X
 
