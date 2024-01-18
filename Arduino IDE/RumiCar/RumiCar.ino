@@ -17,8 +17,9 @@ int interval = 100;
 int motor1 = 0;
 int motor2 = 0;
 int servo1 = 90;
+int speedMax = 80;   //0~255, recommend 80
 
-const char *ssid = "ESP32C3";
+const char *ssid = "RumiCar-C3";
 const char *password = "12345678";
 WiFiServer server(80);
 
@@ -76,11 +77,11 @@ void loop() {
 
         if (currentLine.endsWith("GET /G")) {
           motor1 = 0;
-          motor2 = 80;
+          motor2 = speedMax;
           servo1 = 90;
         }
         if (currentLine.endsWith("GET /B")) {
-          motor1 = 80;
+          motor1 = speedMax;
           motor2 = 0;
           servo1 = 90;
         }
@@ -97,21 +98,21 @@ void loop() {
         }
         if (currentLine.endsWith("GET /LG")) {
           motor1 = 0;
-          motor2 = 80;
+          motor2 = speedMax;
           servo1 = 120;
         }
         if (currentLine.endsWith("GET /RG")) {
           motor1 = 0;
-          motor2 = 80;
+          motor2 = speedMax;
           servo1 = 60;
         }
         if (currentLine.endsWith("GET /LB")) {
-          motor1 = 80;
+          motor1 = speedMax;
           motor2 = 0;
           servo1 = 120;
         }
         if (currentLine.endsWith("GET /RB")) {
-          motor1 = 80;
+          motor1 = speedMax;
           motor2 = 0;
           servo1 = 60;
         }
