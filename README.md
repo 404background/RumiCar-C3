@@ -1,37 +1,35 @@
 # RumiCar-C3
 
-## 試作
+## 車体
 
-### 車体
-
+3DプリンターはPrusa MK4、フィラメントはPLAフィラメントを使用しています。  
 [部品表](./部品表.xlsx)  
 本で見つけたアッカーマン・ジャントー方式を取り入れてみました。  
-内部構造
+サーボモーターでステアリングを操作できます。  
+
+### 内部構造
+
 ![試作前面](./Fusion360/試作前面.jpg)
 ![試作背面](./Fusion360/試作背面.jpg)
 ![試作裏面](./Fusion360/試作裏面.jpg)
 
-外装  
+### 外装  
+
 ![試作外装前面](./Fusion360/試作外装前面.jpg)
 ![試作外装断面](./Fusion360/試作外装断面.jpg)
 
-3Dプリンターで作ったもの  
+### 3Dプリンターで作ったもの  
+
 ![試作２内部](./image/試作２内部.jpg)
 ![試作２外装](./image/試作２外装.jpg)
 
-動画：<https://youtu.be/6bydSzUHpmo>
-[![試作１](./image/試作１.jpg)](https://youtu.be/6bydSzUHpmo)
+### 動画
 
-### 回路図
+再生リスト：<https://www.youtube.com/playlist?list=PLf-eJAxvr1HPKLeXOhiYX_KXZIVGUdm03>  
+
+## 回路、プログラム
 
 ![回路図試作](./Quadcept/RumiCar回路図.png)
-
-## 車体について
-
-Fusion360で設計しています。  
-3DプリンターはPrusa MK4、フィラメントはPLAで出力しています。  
-
-## 回路について
 
 ### DRV8835
 
@@ -45,3 +43,8 @@ Fusion360で設計しています。
 
 スマートフォンからコントロールするためのプログラムです。  
 <https://404background.com/program/esp32c3-4/>
+
+## 関連記事
+
+学生ファブリケーション2024  
+<https://404background.com/made/exhibition/the-deck-2024-1-13/>
