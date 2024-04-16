@@ -27,10 +27,6 @@
 
 再生リスト：<https://www.youtube.com/playlist?list=PLf-eJAxvr1HPKLeXOhiYX_KXZIVGUdm03>  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dodTnEqyTwQ?si=Yunk_PS4A1T8-8K-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xrC0_TiMY44?si=yb-NVTNvAgeLHhlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## 回路、プログラム
 
 ![回路図試作](./Quadcept/RumiCar回路図.png)
