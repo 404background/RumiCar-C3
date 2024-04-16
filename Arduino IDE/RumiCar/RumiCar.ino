@@ -6,13 +6,11 @@ const int servoPin = D1;
 int DutyMax = 2500;  //180:2500  conitnuous:2300
 int DutyMin = 500;   //180:500   continuout:700
 int DutyCycle = DutyMin;
-int Interval = 2000;
 
 const int PIN_IN1 = D2;
 const int PIN_IN2 = D3;
 int value_IN1 = 0;
 int value_IN2 = 0;
-int interval = 100;
 
 int motor1 = 0;
 int motor2 = 0;
