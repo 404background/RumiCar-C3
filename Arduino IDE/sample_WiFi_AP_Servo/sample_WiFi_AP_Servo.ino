@@ -13,6 +13,8 @@ const char *ssid = "ESP32C3";
 const char *password = "123456789";
 WiFiServer server(80);
 
+int test = 12345;
+
 String str =
   "Click <a href=\"/G\">here</a> to Gp straight.<br>"
   "Click <a href=\"/B\">here</a> to Go back.<br>"
@@ -31,6 +33,8 @@ void ServoSpeed(int pin, int speed) {
 }
 
 void setup() {
+  Serial.begin(115200);
+
   pinMode(ServoPin1, OUTPUT);
   pinMode(ServoPin2, OUTPUT);
   ServoSpeed(ServoPin1, 5);
@@ -38,6 +42,8 @@ void setup() {
 
   while (!WiFi.softAP(ssid, password)) {}
   IPAddress myIP = WiFi.softAPIP();
+  Serial.print("AP IP address: ");
+  Serial.println(myIP);
   server.begin();
 }
 
